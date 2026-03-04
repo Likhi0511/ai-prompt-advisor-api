@@ -1,20 +1,31 @@
 # AI Prompt Advisor API
 
-This project is a GenAI backend application that optimizes user prompts using AWS Bedrock.
+A Generative AI backend application that improves and optimizes user prompts using AWS Bedrock.
+
+## Project Overview
+This project demonstrates how to build and deploy a cloud-based GenAI application using FastAPI and AWS Bedrock. The system receives user prompts, sends them to an LLM (Claude model), and returns optimized prompts and explanations.
 
 ## Tech Stack
+- Python
 - FastAPI
 - AWS Bedrock
 - Docker
-- ECS Fargate
-- Python
+- AWS ECS Fargate
+- Amazon ECR
 - Pydantic
 
 ## Features
-- Prompt optimization
-- AI response generation
-- REST API interface
-- Cloud deployment
+- Prompt optimization using LLM
+- REST API built with FastAPI
+- Cloud deployment using ECS
+- Containerized with Docker
+- Secure model invocation using IAM
+
+## Architecture
+User → FastAPI API → AWS Bedrock → Claude Model → Response
 
 ## Deployment
-Deployed using AWS ECS and Docker.
+The application is containerized with Docker and deployed on AWS ECS using Amazon ECR.
+
+## Author
+Likhitha Jalli
