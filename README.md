@@ -24,8 +24,24 @@ This project demonstrates how to build and deploy a cloud-based GenAI applicatio
 ## Architecture
 User → FastAPI API → AWS Bedrock → Claude Model → Response
 
+
 ## Deployment
 The application is containerized with Docker and deployed on AWS ECS using Amazon ECR.
+
+## API Endpoint
+
+POST /chat
+
+Example Request:
+{
+  "user_id": "123",
+  "message": "Explain solar energy"
+}
+
+Example Response:
+{
+  "output": "Solar energy is..."
+}
 
 ## Author
 Likhitha Jalli
