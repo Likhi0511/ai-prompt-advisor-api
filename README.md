@@ -1,2 +1,20 @@
-# ai-prompt-advisor-api
-Projects and experiments in Python, FastAPI, and Generative AI as part of my journey toward becoming an GenAI Engineer.
+# AI Prompt Advisor API
+
+This project is a GenAI backend application that optimizes user prompts using AWS Bedrock.
+
+## Tech Stack
+- FastAPI
+- AWS Bedrock
+- Docker
+- ECS Fargate
+- Python
+- Pydantic
+
+## Features
+- Prompt optimization
+- AI response generation
+- REST API interface
+- Cloud deployment
+
+## Deployment
+Deployed using AWS ECS and Docker.
