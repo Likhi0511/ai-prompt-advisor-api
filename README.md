@@ -34,9 +34,9 @@ The application is containerized with Docker and deployed on AWS ECS using Amazo
 ![Architecture](architecture.png)
 
 
-## Architecture
+## API Documentation
 
-![Architecture](architecture.png)
+![Swagger](images/swagger.png)
 
 
 ## API Endpoint
