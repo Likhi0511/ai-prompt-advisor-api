@@ -28,6 +28,17 @@ User → FastAPI API → AWS Bedrock → Claude Model → Response
 ## Deployment
 The application is containerized with Docker and deployed on AWS ECS using Amazon ECR.
 
+
+## Architecture
+
+![Architecture](architecture.png)
+
+
+## Architecture
+
+![Architecture](architecture.png)
+
+
 ## API Endpoint
 
 POST /chat
